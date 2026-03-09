@@ -2,9 +2,11 @@
 <html lang="es">
 
 <head>
+
 <meta charset="UTF-8">
 <title>CSS Básico</title>
 <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -17,20 +19,35 @@
 
 <h2>CSS: estilos de la página</h2>
 
-<img src="img/css.png">
-
 <p>
-CSS permite modificar el diseño de los elementos HTML.
+CSS permite cambiar la apariencia de los elementos HTML,
+como colores, tamaños y posiciones.
 </p>
 
 <h3>Ejemplo de color</h3>
 
-<p class="ejemploColor">Este texto tiene estilo con CSS.</p>
+<pre>
+&lt;style&gt;
+p{
+color:red;
+}
+&lt;/style&gt;
+</pre>
 
-<h3>Ejemplo de caja</h3>
+<p class="ejemploColor">Este texto tiene estilo aplicado con CSS.</p>
+
+<hr>
+
+<h3>Ejemplo de caja con CSS</h3>
+
+<pre>
+&lt;div class="caja"&gt;
+Contenido de la caja
+&lt;/div&gt;
+</pre>
 
 <div class="caja">
-Esto es una caja con estilo CSS
+Contenido de la caja
 </div>
 
 <a class="btn" href="index.html">Volver al inicio</a>
@@ -38,8 +55,9 @@ Esto es una caja con estilo CSS
 </main>
 
 <footer>
-<p>Proyecto educativo - Tutorial Frontend</p>
+<p>Proyecto - Tutorial Frontend</p>
 </footer>
 
 </body>
+
 </html>
